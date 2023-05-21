@@ -1,0 +1,4 @@
+1. in test_api directory create new file called test_update.py
+2. create test for update_user route to assert the following:
+    1. create new_user - assert that user_id is not None  (need to use client.post)
+    2. update user which you created on first step - assert new_name which you updated (need to use client.post)
