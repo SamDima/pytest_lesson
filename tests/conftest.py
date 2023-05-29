@@ -21,7 +21,7 @@ def setup_and_teardown():
     yield
 
     with get_session_test() as session:
-        users  = session.query(db.User).all()
+        users = session.query(db.User).all()
         for user in users:
             session.delete(user)
             session.commit()
