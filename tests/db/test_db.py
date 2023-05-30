@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from db import User
 from db_transactions.crud import create_user
 
-SQLALCHEMY_DATABASE_URL_TEST = "postgresql+psycopg2://postgres:postgres@localhost:5432/starwars_test"
+SQLALCHEMY_DATABASE_URL_TEST = "postgresql+psycopg2://postgres:pass@localhost:5432/starwars_test"
 
 Base_test = declarative_base()
 

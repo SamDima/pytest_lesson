@@ -16,7 +16,7 @@ if config.config_file_name is not None:
 
 
 config.set_main_option(
-    "sqlalchemy.url", "postgresql://postgres:postgres@localhost:5432/starwars"
+    "sqlalchemy.url", "postgresql://postgres:pass@localhost:5432/starwars_test"
 )
 # add your model's MetaData object here
 # for 'autogenerate' support

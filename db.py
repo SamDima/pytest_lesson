@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from contextlib import contextmanager
 
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:postgres@localhost:5432/starwars"
+SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:pass@localhost:5432/starwars"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
